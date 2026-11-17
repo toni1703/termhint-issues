@@ -1,0 +1,50 @@
+name: Bug report
+description: Something in Termhint doesn't work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Everything in this issue is **public**. Leave out license keys, tokens, email addresses and anything personal in paths or command lines.
+        A security problem? Use **Security → Report a vulnerability** instead: it stays private.
+  - type: input
+    id: version
+    attributes:
+      label: Termhint version
+      description: In the header of the panel under the menu-bar icon.
+      placeholder: "1.3.12 (20261117.121522)"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "macOS 15.5"
+    validations:
+      required: true
+  - type: input
+    id: terminal
+    attributes:
+      label: Terminal and shell
+      placeholder: "Ghostty 1.2, zsh 5.9"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: And what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a new terminal tab
+        2. Type `git ch`
+        3. ...
+  - type: textarea
+    id: details
+    attributes:
+      label: Details from Termhint
+      description: Filled in by Report… in the app (your home folder shows as ~). Check it before you submit.
+      render: text

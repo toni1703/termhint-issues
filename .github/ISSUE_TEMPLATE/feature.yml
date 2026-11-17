@@ -1,0 +1,23 @@
+name: Feature request
+description: Something Termhint could do, or do better.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Everything in this issue is **public**.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What you are trying to do
+      description: The task, and where Termhint gets in the way or falls short today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+  - type: input
+    id: version
+    attributes:
+      label: Termhint version
+      placeholder: "1.3.12"

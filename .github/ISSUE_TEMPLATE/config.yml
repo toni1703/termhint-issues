@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/toni1703/termhint-issues/security/advisories/new
+    about: Report it privately here. Please never as a public issue.
+  - name: License, payment or refund
+    url: https://termhint.com/legal.html
+    about: Write to hello@termhint.com (the contact on this page).
