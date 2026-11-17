@@ -4,8 +4,8 @@ Bug reports and feature requests for [Termhint](https://termhint.com). Termhint'
 this repository holds only its issues.
 
 - **A bug:** [New issue → Bug report](https://github.com/toni1703/termhint-issues/issues/new?template=bug.yml).
-  From the app it is quicker: **Report…** under an error in Settings, or **Report a Problem…** in
-  the panel under the menu-bar icon. Termhint fills in its version, macOS and the error, and you
+  From the app it is quicker: **Report…** under an error in Settings or in the panel under the
+  menu-bar icon (or **Report a Problem…** in the app menu). Termhint fills in its version, macOS and the error, and you
   see and edit everything before you submit.
 - **An idea:** [New issue → Feature request](https://github.com/toni1703/termhint-issues/issues/new?template=feature.yml).
 - **No GitHub account:** write to hello@termhint.com (the app's Report… offers email too).
